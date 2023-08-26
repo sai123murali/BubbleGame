@@ -43,7 +43,6 @@ function runTimer(){
 document.querySelector("#pbtm")
 .addEventListener("click",function(dets){
     var targetNumber = Number(dets.target.textContent);
-    console.log(targetNumber);
     if(targetNumber === hitRn){
         getNewScore();
         makeBubble();
